@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.233.117.128:9000/</sonar.host.url>
+		<sonar.host.url>http://http://13.232.53.233:9000/</sonar.host.url>
 		<sonar.login>996235ef838500c3a8056184bece9b1aa58656ad</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>sbi Releases Nexus Repository</name>
-	      <url>http://52.66.4.159:9980/vijay/repository/sbi-release/</url>
+	      <url>http://13.233.158.93:9980/vijay/repository/sbi-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>sbi Snapshot Nexus Repository </name>
-	      <url>http://52.66.4.159:9980/vijay/repository/sbi-snapshot/</url>
+	      <url>http://13.233.158.93:9980/vijay/repository/sbi-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
